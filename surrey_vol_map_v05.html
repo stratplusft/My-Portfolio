@@ -1,0 +1,81 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0014)about:internet -->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>surrey_vol_map_v05</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<style type="text/css">
+body, html {background:#225588;}
+ /* tooltip styling. by default the element to be styled is .tooltip  */
+  .tooltip {
+    display:none;
+    background:transparent url(img/becard_300_v2.png) no-repeat 0 0px;
+    font-size:12px;
+    height:190px;
+    width:260px;
+    padding:25px;
+    color:#134b6b;
+    z-index:6;
+	padding-top:120px;
+	text-align:right;
+  }
+    /* style the trigger elements */
+  #m_surrey_vol_map_v05 area {
+    border:0;
+    cursor:pointer;
+    margin:0 1px;
+   img#surrey_vol_map_v05 {z-index:1;}
+  }
+</style>
+<script src="http://cdn.jquerytools.org/1.2.7/full/jquery.tools.min.js"></script>
+<!--Fireworks CS5 Dreamweaver CS5 target.  Created Sat Mar 30 18:52:57 GMT+0000 (GMT Standard Time) 2013-->
+</head>
+<body >
+<div style="margin-top:120px;">
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et felis magna. Praesent gravida, quam sit amet dignissim elementum, mi sapien interdum odio, a aliquam massa turpis sit amet nisl. Nullam tristique, turpis quis dignissim lobortis, mauris massa feugiat odio, molestie blandit neque velit auctor nisi. In tempor adipiscing convallis. Nunc gravida, nulla et bibendum imperdiet, justo sem fringilla nulla, ac eleifend velit sem eget lectus. Cras dapibus euismod dui, vitae varius velit volutpat nec. Integer vehicula pellentesque mauris ut pulvinar. Etiam vitae tortor metus.
+
+Quisque ligula nibh, blandit eu varius aliquet, porttitor id est. Curabitur euismod volutpat quam, sed dignissim velit vehicula vel. Donec dapibus cursus tristique. Morbi nec enim massa, a pellentesque orci. Maecenas purus nibh, condimentum eu scelerisque et, aliquet ac nunc. Donec posuere laoreet urna, lacinia venenatis enim pellentesque auctor. Duis mollis tristique interdum. Cras odio urna, vulputate sit amet vulputate vitae, ultrices in nulla. Ut non sapien eget lorem adipiscing auctor vitae ut magna. Mauris placerat, ligula eu venenatis faucibus, nisi enim laoreet augue, non porta dolor odio lacinia est. Maecenas commodo auctor justo at pulvinar. Cras feugiat aliquet feugiat. Nunc nisi risus, congue non vehicula quis, facilisis quis nulla. Sed molestie, nulla ac facilisis imperdiet, risus velit fringilla nisl, in rhoncus velit massa et augue. In hac habitasse platea dictumst. Phasellus at nisi id augue pharetra pulvinar. </div>
+<div>
+<img name="surrey_vol_map_v05" src="surrey_vol_map_v05.jpg" width="459" height="313" border="0" id="surrey_vol_map_v05" usemap="#m_surrey_vol_map_v05" alt="" />
+<map name="m_surrey_vol_map_v05" id="m_surrey_vol_map_v05">
+<area id="runnymede" shape="poly" coords="43,107,62,85,95,66,111,67,113,49,117,37,133,22,142,21,151,28,154,25,151,16,157,7,180,13,195,19,195,27,201,33,208,32,215,37,225,40,224,46,207,55,202,63,195,65,187,74,180,84,183,88,175,95,165,99,157,96,147,96,136,99,135,103,129,103,121,103,114,105,112,113,111,119,102,123,90,119,82,121,78,129,65,140,57,125,50,118,43,107"
+href="runnymede.html" title="contact Ronnie Spary on 07584 660938 <br/>or by email<br/> ronnie.spary@businessengagementinsurrey.org.uk" alt="Runnymede, Spelthorne or Surrey Heath" />
+<area id="waverley" shape="poly" coords="64,146,81,134,93,130,100,130,103,131,119,147,137,150,156,155,160,148,155,137,165,129,176,127,189,116,195,122,203,129,207,128,215,135,220,148,219,165,218,170,203,168,200,179,202,193,210,203,210,261,210,272,77,296,35,239,21,249,14,241,14,213,8,201,20,175,39,172,54,177,52,175,50,170,50,166,52,161,56,154,64,146,64,146"
+href="waverley.html" title="contact TJ Purssell on 07766 720355<br/> or by email <br/>tj.purssell@businessengagementinsurrey.org.uk" alt="Guildford or Waverley" />
+<area id="epsom" shape="poly" coords="311,165,391,106,424,215,431,234,350,229,317,220,224,259,209,191,227,166,225,134,201,113,179,103,218,57,236,52,255,68,287,76,310,102,335,122,349,133,352,134"
+href="epsom.html" target="None" title="contact Amanda Bird on 07766 763636<br/> or by email <br/>amanda.bird@businessengagementinsurrey.org.uk" alt="Tandridge, Reigate and Banstead, Mole Valley, Epsom and Ewell and Elmbridge" />
+</map>
+</div>
+<script>
+  $(function() {
+   // create custom animation algorithm for jQuery called "bouncy"
+      $.easing.bouncy = function (x, t, b, c, d) {
+          var s = 1.70158;
+          if ((t/=d/2) < 1) return c/2*(t*t*(((s*=(1.525))+1)*t - s)) + b;
+          return c/2*((t-=2)*t*(((s*=(1.525))+1)*t + s) + 2) + b;
+      }
+
+      // create custom tooltip effect for jQuery Tooltip
+      $.tools.tooltip.addEffect(
+          "bouncy",
+
+  	// opening animation
+  	function(done) {
+  	    this.getTip().animate({top: '+=15'}, 500, 'bouncy', done).show();
+  	},
+
+  	// closing animation
+  	function(done) {
+  	    this.getTip().animate({top: '-=15'}, 500, 'bouncy', function()  {
+  		$(this).hide();
+  		done.call();
+  	    });
+  	}
+    );
+      $("#m_surrey_vol_map_v05 area[title]").tooltip({effect: 'bouncy',offset: [120, 2]});
+    });
+</script>
+</body>
+</html>

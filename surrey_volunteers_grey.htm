@@ -1,0 +1,99 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0014)about:internet -->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>surrey_volunteers_grey</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<style type="text/css">
+body, html {background:#225588;}
+ /* popup styling. by default the element to be styled is .popup  */
+  .popup {
+   display:none;
+    background:transparent url(img/becard_300_v2.png) no-repeat 0 0px;
+    font-size:12px;
+    height:190px;
+    width:260px;
+    padding:120px 25px 25px;
+    margin-left:25px;
+    color:#134b6b;
+	text-align:right;
+	float:left;
+  }
+  .popup a{
+  text-decoration:none;
+  color:##031A50;
+  }
+  .popup a:hover{
+  text-decoration:underline;
+
+  }
+    /* style the trigger elements */
+  #m_surrey_volunteers_grey area {
+    border:0;
+    cursor:pointer;
+    margin:0 1px;
+   img#surrey_vol_map_v05 {z-index:1;}
+  }
+  .hide {display:none;}
+  .show {display:block;}
+  .leftFloat{float:left;}
+</style>
+  <script src="http://cdn.jquerytools.org/1.2.7/full/jquery.tools.min.js"></script>
+
+<script type="text/javascript">
+  $(function() {
+	$(".map-area").each(function() {
+	    $(this).attr("data-oldhref", $(this).attr("href"));
+	    $(this).removeAttr("href");
+});
+	$("#runnymede").click(function(){
+	  $("div.runnymede").show(1000);
+	  $("div.waverley").hide(1000);
+	  $("div.epsom").hide(1000);
+});
+	$("#waverley").click(function(){
+	  $("div.runnymede").hide(1000);
+	  $("div.waverley").show(1000);
+	  $("div.epsom").hide(1000);
+});
+	$("#epsom").click(function(){
+		  $("div.runnymede").hide(1000);
+		  $("div.waverley").hide(1000);
+		  $("div.epsom").show(1000);
+});
+
+
+
+
+    });
+</script>
+</head>
+<body bgcolor="#ffffff">
+<div>
+<div class="leftFloat">
+<img name="surrey_volunteers_grey" src="images/surrey_volunteers_grey.png" width="800" height="547" border="0" id="surrey_volunteers_grey" usemap="#m_surrey_volunteers_grey" alt="" />
+<map name="m_surrey_volunteers_grey" id="m_surrey_volunteers_grey">
+<area class="map-area" id="waverley"
+shape="poly" coords="230,348,232,277,181,242,160,219,132,255,111,272,106,297,104,320,22,321,16,352,34,440,95,515,146,534,226,526,274,521,299,512,353,499,367,464,364,420,361,388,349,329,351,310,382,285,369,258,344,240,337,208,289,243,246,282,235,279"
+href="javascript:;" title="contact TJ Purssell" alt="Guildford or Waverley" />
+<area class="map-area" id="epsom"
+shape="poly" coords="554,299,370,487,476,465,549,437,568,425,617,451,705,457,773,408,771,256,684,161,547,159,509,110,436,85,387,93,360,117,337,131,327,153,324,174,348,205,355,232,387,257,393,287,355,316,355,341,358,373,368,390,365,431,372,459,373,472,371,483"
+href="javascript:;" title="contact Amanda Bird" alt="Tandridge, Reigate and Banstead, Mole Valley, Epsom and Ewell and Elmbridge" />
+<area  class="map-area" id="runnymede"
+shape="poly" coords="203,134,156,95,154,96,116,139,86,170,79,202,82,241,99,270,123,262,136,247,160,216,174,221,179,217,192,190,203,187,216,187,236,183,255,179,273,175,296,174,316,160,323,131,345,116,363,105,390,83,382,56,370,44,315,12,277,10,240,24,202,55,179,73,157,95"
+href="javascript:;" title="contact Ronnie Spary" alt="Runnymede, Spelthorne or Surrey Heath" />
+</map>
+</div>
+<div  class="popup runnymede">
+		<p>contact Ronnie Spary on 07584 660938 <br/>or by email<br/> <a href="mailto:ronnie.spary@businessengagementinsurrey.org.uk" title="ronnie.spary@businessengagementinsurrey.org.uk">ronnie.spary@businessengagementinsurrey.org.uk</a></p>
+	</div>
+	<div class="popup waverley">
+		<p>contact TJ Purssell on 07766 720355<br/> or by email <br/><a href="mailto:tj.purssell@businessengagementinsurrey.org.uk" title="tj.purssell@businessengagementinsurrey.org.uk">tj.purssell@businessengagementinsurrey.org.uk</a></p>
+	</div>
+	<div class="popup epsom">
+		<p>contact Amanda Bird on 07766 763636<br/> or by email <br/><a href="mailto:amanda.bird@businessengagementinsurrey.org.uk" title="amanda.bird@businessengagementinsurrey.org.uk">amanda.bird@businessengagementinsurrey.org.uk</a></p>
+	</div>
+</div>
+</body>
+</html>
