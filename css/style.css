@@ -354,12 +354,7 @@ footer span {
 	margin-left: 2em;
 	float:right;
 	}
-footer p:first-child
-{
-	background: transparent URL(../img/insured-via-sb_60.gif) 340px 1em no-repeat;
-	line-height:5em;
-	padding:1em 0 0 0;
-}	
+
 @media screen and (max-width: 980px) {
        footer,
 	#pagebody {		
