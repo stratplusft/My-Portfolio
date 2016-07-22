@@ -1,5 +1,7 @@
 ## Portfolio for William Dunnett. 
-Version 1.0 created July 2012. Updated July 2016.
+Version 1.1 Updated 22 July 2016.
+
+Old Allianz sites removed. New Royal High SChool Club in London site added.
 
 
 Project uses the HTML5 Boilerplate - 
